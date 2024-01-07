@@ -19,7 +19,7 @@
     background-image: url('../resources/images/Banner-image.png');
     background-repeat: no-repeat;
     background-size: contain;
-    filter: brightness(70%);
+    filter: brightness(60%);
     width: 1300px;
     height: 600px;
     margin: 50px auto 100px;
@@ -35,32 +35,68 @@
     transform: translate(-50%, -50%);
 }
 
-.text-on-banner .new-year-text1 {
+.header-content .text-on-banner .new-year-text1 {
     color: var(--primary);
     text-align: center;
     font-family: 'Merriweather', serif;
-    font-size: 32px;
     font-weight: 400;
+    font-size: 32px;
     padding: 30px;
 }
 
-.text-on-banner .new-year-text2 {
+.header-content .text-on-banner .new-year-text2 {
     color: var(--primary);
     text-align: center;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
 }
 
-.text-on-banner .new-year-text3 {
+.header-content .text-on-banner .new-year-text3 {
     color: var(--primary);
     text-align: center;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
 }
 
 /* main section styling */
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main .discount-show {
+    text-align: center;
+}
+
+.main .discount-show .discount-related-text1 {
+    font-family: 'Inter', sans-serif;
+    color: var(--secondary);
+    font-size: 88px;
+    margin-bottom: 30px;
+}
+
+.main .discount-show .discount-related-text2 {
+    font-family: 'Inter', sans-serif;
+    color: var(--secondary);
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.main .discount-show .discount-related-text3 {
+    font-family: 'Inter', sans-serif;
+    color: var(--thirdly);
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.main .discount-show img {
+    width: 500px;
+    height: 400px;
+}
+
 /* footer section styling */
