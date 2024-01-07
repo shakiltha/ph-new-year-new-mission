@@ -1,0 +1,66 @@
+/* style resetting for each rule */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* color variable declaration */
+
+:root {
+    --primary: #fff;
+    --secondary: #FF0000;
+    --thirdly: #000;
+}
+
+/* header styles */
+
+.header {
+    background-image: url('../resources/images/Banner-image.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: brightness(70%);
+    width: 1300px;
+    height: 600px;
+    margin: 50px auto 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-on-banner .new-year-text1 {
+    color: var(--primary);
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 30px;
+}
+
+.text-on-banner .new-year-text2 {
+    color: var(--primary);
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+.text-on-banner .new-year-text3 {
+    color: var(--primary);
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+/* main section styling */
+/* footer section styling */
