@@ -344,5 +344,340 @@
     margin-top: -30px;
 }
 
+/* gift text and images */
+
+.main .gift-text-and-images {
+    width: 1330px;
+    height: 1500px;
+    margin: 600px 100px 100px 300px;
+}
+
+.main .gift-text-and-images .gift-texts {
+    width: 1350px;
+    height: 300px;
+}
+
+.main .gift-text-and-images .gift-texts .gift-text1 {
+    color: var(--secondary);
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.main .gift-text-and-images .gift-texts .gift-text2 {
+    color: var(--thirdly);
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.main .gift-text-and-images .gift-texts .gift-text3 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.main .gift-text-and-images .gift-images {
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; */
+    margin-top: -50px;
+    position: relative;
+}
+
+.main .gift-text-and-images .gift-images img {
+    padding: 5px;
+}
+
+/* hover effect on shoulder bag image */
+
+.gift-images .img-container1 {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+}
+
+.gift-images .img-container1 .shoulder-bag {
+    display: block;
+    width: 400px;
+    height: 400px;
+}
+
+.gift-images .img-container1 .overlay {
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background-color: #eee;
+}
+
+.gift-images .img-container1:hover .overlay {
+    opacity: 0.4;
+}
+
+.gift-images .img-container1 .overlay .shoulder-bag-text {
+    color: #974747;
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.overlayLeft {
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+}
+
+.gift-images .img-container1:hover .overlayLeft {
+    width: 100%;
+}
+
+/* hover effect on hand bag image */
+
+.gift-images .img-container2 {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+}
+
+.gift-images .img-container2 .hand-bag {
+    display: block;
+    width: 400px;
+    height: 400px;
+}
+
+.gift-images .img-container2 .overlay1 {
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background-color: #eee;
+}
+
+.gift-images .img-container2:hover .overlay1 {
+    opacity: 0.4;
+}
+
+.gift-images .img-container2 .overlay1 .hand-bag-text {
+    color: #944242;
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.gift-images .img-container2 .overlayRight {
+    height: 100%;
+    width: 0;
+    top: 0;
+    right: 0;
+}
+
+.gift-images .img-container2:hover .overlayRight {
+    width: 100%;
+}
+
+/* hover effect on high heel shoe type1 */
+
+.gift-images .img-container3 {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+}
+
+.gift-images .img-container3 .shoe-heel-type1 {
+    display: block;
+    width: 400px;
+    height: 400px;
+}
+
+.gift-images .img-container3 .overlay2 {
+    position: absolute;
+    transition: all 0.3s ease;
+    opacity: 0;
+    background-color: #471f1f;
+}
+
+.gift-images .img-container3:hover .overlay2 {
+    opacity: 0.4;
+}
+
+.gift-images .img-container3 .overlay2 .high-heel-type1 {
+    color: #ffffff;
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.gift-images .img-container3 .overlayTop {
+    height: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.gift-images .img-container3:hover .overlayTop {
+    height: 100%;
+}
+
+/* hover effect on high heel shoe type1 */
+
+.gift-images .img-container4 {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+}
+
+.gift-images .img-container4 .shoe-heel-type2 {
+    display: block;
+    width: 400px;
+    height: 400px;
+}
+
+.gift-images .img-container4 .overlay3 {
+    position: absolute;
+    transition: all 0.3s ease;
+    opacity: 0;
+    background-color: #471f1f;
+}
+
+.gift-images .img-container4:hover .overlay3 {
+    opacity: 0.4;
+}
+
+.gift-images .img-container4 .overlay3 .high-heel-type2 {
+    color: #ffffff;
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.gift-images .img-container4 .overlayBottom {
+    height: 0;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.gift-images .img-container4:hover .overlayBottom {
+    height: 100%;
+}
+
+/* hover effect on metal bracelet */
+
+.gift-images .img-container5 {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+}
+
+.gift-images .img-container5 .metal-bracelet {
+    display: block;
+    width: 400px;
+    height: 400px;
+}
+
+.gift-images .img-container5 .overlay4 {
+    position: absolute;
+    transition: all 0.3s;
+    opacity: 0;
+    background-color: #913939;
+}
+
+.gift-images .img-container5:hover .overlay4 {
+    opacity: 0.4;
+}
+
+.gift-images .img-container5 .overlay4 .bracelet {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gift-images .img-container5 .overlayCross {
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: #913939;
+}
+
+.gift-images .img-container5:hover .overlayCross {
+    width: 100%;
+    height: 100%;
+}
+
+/* hover effect on sunglass */
+
+.gift-images .img-container6 {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+}
+
+.gift-images .img-container6 .sunglass {
+    display: block;
+    width: 400px;
+    height: 400px;
+}
+
+.gift-images .img-container6 .overlay5 {
+    position: absolute;
+    transition: all 0.3s;
+    opacity: 0;
+    background-color: #c76c92;
+}
+
+.gift-images .img-container6:hover .overlay5 {
+    opacity: 0.4;
+}
+
+.gift-images .img-container6 .overlay5 .sun-sunglass {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.gift-images .img-container6 .overlayFade {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.gift-images .img-container6:hover .overlayFade {
+    width: 100%;
+    height: 100%;
+}
+
+
+
 
 /* footer section styling */
