@@ -64,11 +64,6 @@
 
 /* main section styling */
 
-/* .main {
-    display: flex;
-    justify-content: center
-} */
-
 /* discount section */
 
 .main .discount-show {
@@ -275,5 +270,79 @@
     line-height: 32px;
     padding: 10px;
 }
+
+/* holiday sale section */
+
+.main .holiday-sale {
+    margin-bottom: 100px;
+}
+
+/* holiday sale text section */
+
+.main .holiday-sale .holiday-sale-text .holiday-sale-text1 {
+    color: #070211;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.main .holiday-sale .holiday-sale-text .holiday-sale-text2 {
+    color: #070211;
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holiday-sale-text2 .holiday {
+    color: #F00;
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.main .holiday-sale .holiday-sale-text .holiday-sale-text3 {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+/* holiday sale images section */
+
+.main .holiday-sale .holiday-sale-images {
+    width: 1300px;
+    height: 220px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.gift-box {
+    margin-top: -500px;
+    margin-left: 200px;
+    width: 500px;
+    height: 500px;
+}
+
+.fifty-discount {
+    margin-left: 750px;
+    margin-top: -400px;
+}
+
+.smiley-lady {
+    margin-left: 890px;
+    margin-top: 100px;
+}
+
+.rectangular-red {
+    width: 1320px;
+    height: 225px;
+    margin-top: -30px;
+}
+
 
 /* footer section styling */
