@@ -777,6 +777,14 @@
     font-weight: 500;
 }
 
+.footer .footer-section2 .link-container {
+    margin-left: -100px;
+}
+
+.footer .footer-section2 a {
+    padding: 10px;
+}
+
 .footer .footer-section3 .footer-para3 {
     color: #FFF;
     font-family: 'Inter';
