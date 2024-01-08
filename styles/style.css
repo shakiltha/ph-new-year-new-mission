@@ -691,7 +691,7 @@
 }
 
 .main .email-subscription .subs-section1 {
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 .main .email-subscription .subs-section2 {
@@ -744,8 +744,54 @@
     text-transform: capitalize;
     cursor: pointer;
     margin-left: -40px;
-    border: 2px solid black;
+    border: none;
 }
 
 
 /* footer section styling */
+
+.footer {
+    background: #070211;
+    width: 1300px;
+    height: 600px;
+    margin: 0 auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer .footer-section1 .footer-para1 {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 250px;
+}
+
+.footer .footer-section1 .footer-para2 {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer .footer-section3 .footer-para3 {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 250px;
+}
+
+.footer .footer-section3 .unsubscribe {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
